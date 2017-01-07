@@ -1,0 +1,34 @@
+# CodeBook
+
+
+The variables used in this data are:
+
+1. The grouping variables:
+
+    1. subjectno: The subject number identifier for each of the 30 participants in the research.
+    2. activity: The activity that the measuremetns were performed on.
+
+2. The means of the measurment means and standard deviations: 
+    
+    The names correspond to the fololowing measurments:
+
+    1. t, f: t stand for the regular linear measurment and f for the Fast Fourier Transform method.
+    2. body_acc, gravity_acc: body_acc is bady accelration signal and gravity_acc is the one due to gravity.
+    3. gyr, acc: Measurments using the gyroscope or the accelerometer.
+    4. jerk: Jerk signals measurements.
+    5. mag: The magnitude of the three-dimensional signals.
+    6. mean, std, meanfreq: The mean, the standard deviation or the average of the frewquency components.
+    7. x, y, z: The axis that the measurment was performed on.
+    
+Original citation: "The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ.
+These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and
+a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated 
+into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
+Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). 
+Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). 
+Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. 
+(Note the 'f' to indicate frequency domain signals)."
+
+The above are derived from the initial measurments provided by the features_info.txt file. 
+This assignment is completed within the spectrum of the Getting and Cleaning Data course.
+All the content belongs to the original author and conductor of the research (persumably Samsung).
