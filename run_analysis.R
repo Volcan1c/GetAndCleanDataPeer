@@ -49,4 +49,4 @@ names(meanstd) <- gsub("-", "_", names(meanstd))
 #Extracting the new dataset:
 grbysub <- group_by(meanstd, subjectno, activity)
 r_analysis <- summarise_each(grbysub, funs(mean), -(subjectno:activity))
-write.table(r_analysis, "~/r_analysis.txt", row.name=FALSE)
+write.table(r_analysis, "~/tidydata.txt", row.name=FALSE)
